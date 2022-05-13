@@ -1,31 +1,26 @@
-  body{
-            background-color: lightslategray;
-        }
-        h1{
-            text-align: center;
-            color:black;
-            background-color: lightblue;
-            border-radius: 1em;
-            text-decoration: solid;
-            font-style: inherit;
-            /*font-style: italic;*/
-        }
-        span{
-            font-style: italic;
-            color: rgb(109, 96, 20);
-            text-align: center;
-        }
+body{
+    background-color: lightslategray;
+    }
+h1{
+    border: solid 1px;
+    text-align: center;
+    color:black;
+    background-color: lightblue;
+    border-radius: 1em;
+    text-decoration: solid;
+    font-style: inherit;
+    font-style: italic;
+    }
+span{
+    font-style: italic;
+    color: rgb(109, 96, 20);
+    text-align: center;
+    }
         img {
           margin: auto;
           display: block;
         }
-        .footer{
-            background-color: brown;
-            border: 1px solid;
-            border-radius: 1em;
-            padding: 1em;
-            margin: 1em;
-        }
+
         .small_pizza {
             flex: 1;
             border: 1px solid;
@@ -57,4 +52,15 @@
             .pizzas{
             display: flex;
             }
+        }
+
+        .footer{
+            background-color: brown;
+            border: 1px solid;
+            border-radius: 1em;
+            padding: 1em;
+            margin: 1em;
+        }
+        .hours{
+            text-align: right;
         }
